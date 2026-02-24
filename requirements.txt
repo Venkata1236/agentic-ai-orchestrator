@@ -1,0 +1,32 @@
+# Core AutoGen framework [web:5][web:22]
+autogen-agentchat>=0.4.0,<0.5.0
+autogen-ext[openai]>=0.4.0,<0.5.0
+
+# API & Backend
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Data validation & schemas
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# Environment management
+python-dotenv>=1.0.1
+
+
+# Development (add to requirements-dev.txt later)
+pytest>=8.3.0
+ruff>=0.6.0
+
+
+# Document parsing
+PyPDF2>=3.0.1          # PDF
+python-docx>=1.1.2     # DOCX  
+PyMuPDF>=1.24.0        # Advanced PDF (optional, but better)
+
+# UI + API
+streamlit>=1.39.0
+watchdog>=4.0.0        # Auto-reload
+
+# Chunking
+tiktoken>=0.7.0        # OpenAI tokenizer
